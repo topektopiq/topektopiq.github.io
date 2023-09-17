@@ -184,11 +184,16 @@ button{
     margin-top: 20px;
 }
 
-#portfolio:hover, #portfoliio:active{
+#portfolio:hover{
     background-color: #0156FE;
     color: #ffffff;
     border: #121212 solid 2px;
     box-sizing: border-box;
+}
+
+#portfolio:active{
+    color: hsla(0, 0%, 100%, 0.8);
+    background-color: hsla(220, 99%, 50%, 0.95);
 }
 
 #portfoliio:focus{
@@ -249,6 +254,7 @@ button{
 
 #email:hover{
     color: #121212;
+    font-weight: 600;
     background-color: #ffffff;
     border-color: #ffffff;
 }
